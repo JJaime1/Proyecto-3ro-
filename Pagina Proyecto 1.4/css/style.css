@@ -1,0 +1,242 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: #d4d4d4;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/persona-manejando.jpg)
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.login-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    margin-bottom: 4vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h2 {
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.ingresar {
+    height: 3em;
+    font-size: larger;
+}
+
+form {
+    height: 50vh;
+    width: 50vh;
+    background-color: #5a2cd881;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+form input[type="submit"] {
+    width: 100%;
+}
+
+label {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 150px;
+    letter-spacing: 2px;
+}
+
+input {
+    background-color: rgba(70, 70, 71, 0.6);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 0px solid #000000;
+    border-radius: 100px;
+}
+
+input[type="submit"] {
+    background-color: #2E66F6;
+    color: white;
+    cursor: pointer;
+}
+
+.boton {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a5ad1;
+}
+
+.menu {
+    padding: 20px;
+    padding-top: 0px;
+    border-top-right-radius: 15px;
+    background-color: #054585;
+
+}
+
+.main {
+    height: 100%;
+    display: flex;
+}
+
+.bienvenida {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #000000;
+}
+
+.logo-main img {
+    height: 60px;
+}
+
+.logo-main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.opciones-menu h2{
+    font-size: x-large;
+}
+.logout h2{
+    font-size: x-large;
+}
+@media (max-width: 700px) {
+    .main-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .login-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    .campo {
+        height: 2em;
+    }
+
+    .ingresar[value="Ingresar"] {
+        font-size: 1em;
+
+    }
+
+    .password {
+        height: auto;
+    }
+
+    .usuario {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .main-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .login-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    .campo {
+        height: 2em;
+    }
+
+    .ingresar[value="Ingresar"] {
+        font-size: 1em;
+
+    }
+
+    .password {
+        height: auto;
+    }
+
+    .usuario {
+        height: auto;
+    }
+
+}
