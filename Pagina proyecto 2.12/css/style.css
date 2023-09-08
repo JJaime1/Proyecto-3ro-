@@ -1,0 +1,142 @@
+body{
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.logo {
+    display: grid;
+    place-items: center;
+}
+
+.logo img {
+    width: 50vh;
+}
+
+.container {
+    height: 800px; 
+    display: grid;
+    place-items: center;
+}
+@media screen and (max-height: 800px) {
+    .container {
+        height: 400px;
+        display: grid;
+        place-items: center;
+    }
+}
+.login-form {
+    background-color: #4d22c4b2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.form-title {
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.label {
+    color: white;
+}
+
+.input-field {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.main{
+    display: flex;
+    padding-left: 0px !important;
+}
+
+.menu{
+    padding: 10px;
+    color: white;
+    background-color: #0056b3;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100%;
+}
+
+.bienvenida{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+    color: rgb(255, 115, 34);
+}
+.dropdown{
+    background-color: #0056b3;
+    border-radius: 10px;
+    width: 100% !important;
+    display: grid;
+
+}
+.dropdown button{
+    display: grid;
+    place-items: center;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 500;
+}
+li{
+    margin-bottom: 10px;
+}
+
+.mostrar{
+	margin-top: 1.5%;
+	 width: 70%;
+    height: 70vh;
+    display: grid;
+	position: absolute;
+}
+
+.oculto{
+	 display: none;
+}
+
+.titulo-construccion{
+    color: white;
+}
+.construccion-container{
+    text-align: center;
+}

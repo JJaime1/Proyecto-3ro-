@@ -1,0 +1,92 @@
+.BgAzul{
+	background-color: hsla(220, 90%, 58%, 0.8) !IMPORTANT;
+}
+
+.BgAzul2{
+	background-color: hsla(220, 60%, 50%);
+}
+
+
+.LetraA{
+	margin-top: 10%;
+	font-weight: bold;
+	text-decoration:underline;
+	font-size:20px;
+}
+
+.LetraB{
+	color:white !IMPORTANT;
+	font-size:26px;
+	margin-top: 1000px;
+}
+
+.LetraB td{
+	padding-top:5%;
+}
+table {
+	width: 100%; 
+	border-collapse: collapse; 
+	border: 1px solid hsla(220, 90%, 58%, 0.8);
+	text-align: center;
+
+}
+th {
+padding-bottom: 1.5%;
+width: 25%;
+padding-top:2%;
+}
+
+Button, input{
+	border-radius: 10px;
+}
+
+.tablaMovimientos{
+	text-align:center;
+	color:white;
+}
+
+p{
+	display:inline;
+	color:white;
+	font-size:20px;
+}
+
+.metodoPago{
+	width: 80%;
+    padding:0;
+	aspect-ratio: 1/1;
+}
+
+#cc{
+	background: linear-gradient(to right, #2EF65A, #99FDB5);
+}
+#c{
+	background: linear-gradient(to right, #A317D4, #BE8CFD);
+}
+#e{
+	background: linear-gradient(to right, #F65E2E, #F29D79);
+}
+#d{
+	background: linear-gradient(to right, #F99146, #FFDEAD);
+}
+
+ .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+}
+
+#btnCan{
+	float:right;
+	background-color: hsla(220, 60%, 40%);
+	color:white;
+	font-size:18px;
+	margin-right: 5%;
+}
+
+#btnCon{
+	background-color: hsla(220, 60%, 40%);
+	color:white;
+	font-size:18px;
+	margin-left: 5%;
+}

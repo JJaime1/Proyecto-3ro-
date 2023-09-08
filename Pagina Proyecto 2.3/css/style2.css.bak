@@ -1,0 +1,59 @@
+td{
+color:white;
+font-size: 28px;
+text-align:left;
+}
+tr{
+	margin-top: 10%;
+}
+
+.BgAzul{
+	background-color: hsla(220, 90%, 58%, 0.8) !IMPORTANT;
+}
+
+table {
+	width: 100%; 
+	border: 1px solid hsla(220, 90%, 58%, 0.8);
+	height: 100%;
+	border-collapse: separate;
+    border-spacing: 0px 40px;
+	background-color: hsla(220, 90%, 58%, 0.8);
+}
+
+input{
+	border-radius: 5px;
+	font-size:28px;
+	border:none;
+}
+
+.text{
+	margin-left: 50%;
+	text-align:left !IMPORTANT;
+	padding-left: 20%;
+}
+
+p{
+	color:white;
+	font-size:28px;
+	display:inline;
+}
+
+button{
+	border-radius: 10px;
+	font-size:28px;
+	border:none;
+	margin-left: 1%;
+}
+.btnCon{
+	float:right;
+}
+
+.ContenedorA{
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+::placeholder{
+	font-size:18px;
+}

@@ -1,0 +1,28 @@
+.BgAzul{
+	background-color: hsla(220, 90%, 58%, 0.8);
+}
+
+.LetraA{
+	font-weight: bold;
+	text-decoration:underline;
+	font-size:20px;
+}
+
+.LetraB{
+	color:white;
+	font-size:18px;
+}
+
+table {
+	width: 100%; 
+	border-collapse: collapse; 
+	border: 1px solid hsla(220, 90%, 58%, 0.8);
+	text-align: center;
+}
+th {
+padding-bottom: 1.5%;
+}
+
+Button, input{
+	border-radius: 10px;
+}

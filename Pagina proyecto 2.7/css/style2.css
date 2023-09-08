@@ -1,0 +1,82 @@
+.tdStyle {
+  color: white; /* Cambio el color del texto a blanco */
+  font-size: 20px;
+  text-align: left;
+}
+
+.trStyle {
+  margin-top: 10%;
+}
+
+.bgAzulStyle {
+  background-color: hsla(220, 90%, 58%, 0.8) !important;
+}
+
+.tableStyle {
+  width: 100%;
+  border: 1px solid hsla(220, 90%, 58%, 0.8);
+  border-collapse: collapse;
+  background-color: hsla(220, 90%, 58%, 0.8);
+}
+
+.inputStyle {
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  width: 100%; 
+  max-width: 300px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.textStyle {
+  margin-left: 50%;
+  text-align: left !important;
+  padding-left: 20%;
+}
+
+.pStyle {
+  color: white;
+  font-size: 28px;
+  display: inline;
+}
+
+.buttonStyle {
+  border-radius: 10px;
+  font-size: 28px;
+  border: none;
+  margin-left: 1%;
+}
+
+.btnConStyle {
+  float: right;
+}
+
+.contenedorAStyle {
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+		
+.modal-content{
+	background-color: hsla(220, 90%, 58%, 0.8) !important;
+	width: 80%;
+	height: 80%;
+}
+
+.flechitas{
+	text-align:center;
+}
+
+
+
+.trStyle select, .trStyle input {
+    background-color: #030078;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
