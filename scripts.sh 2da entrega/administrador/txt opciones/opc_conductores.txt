@@ -1,0 +1,1 @@
+	Deshabilitar_conductor	Habilitar_conductor	Deshabilitar_conductor_por_dia

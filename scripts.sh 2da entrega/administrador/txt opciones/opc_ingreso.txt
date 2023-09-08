@@ -1,0 +1,1 @@
+Gestionar_usuarios   Gestionar_grupos   Gestionar_conductores	Gestionar_servicios Gestionar_respaldos  Actualizar_sistema   Probar_conexion	Mostrar_cuentas_logueadas

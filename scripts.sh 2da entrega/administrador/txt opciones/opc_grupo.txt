@@ -1,0 +1,1 @@
+	Agregar_grupo			Eliminar_grupo			Modificar_grupo
